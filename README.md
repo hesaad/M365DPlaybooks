@@ -24,3 +24,4 @@ union DeviceFileEvents, DeviceProcessEvents
 > Description: Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms.
 T1059.006: Python and T1059: Command and Scripting Interpreter
 > Recommended actions: Investigate and check the encrypted files and confirm if it's malicious and ransom activity then use native OneDrive Defender recovery feature.
+![MDEOneDriveRansomwareRecovery-part2-New](https://user-images.githubusercontent.com/39443323/213176839-8b35b676-ab10-44db-ae78-31aeaf6a2082.gif)
