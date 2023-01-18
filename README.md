@@ -1,4 +1,4 @@
-# M365 Defender Custom laybooks
+# M365 Defender Custom Playbooks
 M365 Defender SOC Playbooks
 
 
