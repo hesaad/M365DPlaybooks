@@ -6,6 +6,11 @@ A power automate playbook that integrate as connected application to Microsoft D
 
 Please note this is just a sample - idea. Below are the main configuration & setup steps:
 
+First you need to create app registeration under your M365 Defender tenant, make sure to consent the folowing application permissions under "Microsoft Graph" API permissions:
+
+<img width="466" alt="OneDrive App REg MDE permissoon" src="https://user-images.githubusercontent.com/39443323/213397388-df950740-d706-47d8-a739-3b94e74dec8d.png">
+
+
 1. Attached the Power Automate playbook, you can import it and connect as MDE application for more details please check https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/api-microsoft-flow?view=o365-worldwide
 2. Ensure of adding the following ransomware activites as MDE custom detection rules in addition to https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-find-ransomware?view=o365-worldwide: (you might consolidate all activites into one custom detection rule as well):
 - Open http://security.microsoft.com portal
