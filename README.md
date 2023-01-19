@@ -4,7 +4,13 @@ M365 Defender SOC Playbooks - "**Ransomware Recovery “SOC – Automated Restor
 
 A power automate playbook that integrate as connected application to Microsoft Defender for Endpoint and OneDrive for business to allow SOC to recover from ransomware files/data disruption via an automated process. Noting that the playbook trigger can be replaced with a recurrence schedule instead of MDE alert base.
 
-Please note this is just a sample - idea. Below are the main configuration & setup steps:
+
+Pre-reqs:
+- Microsoft Defender for Endpoint.
+- Concerned machines are already conbaored and synced with OneDrive For business.
+- POwer Automate / Azure Logic Apps.
+
+Please note this is just a sample - PoC. Below are the main configuration & setup steps:
 
 First you need to create app registeration under your M365 Defender tenant, make sure to consent the folowing application permissions under "Microsoft Graph" API permissions:
 
