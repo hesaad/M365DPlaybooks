@@ -1,5 +1,5 @@
 # M365 Defender Custom Playbooks
-M365 Defender SOC Playbooks - "Ransomware Recovery “SOC – Automated Restore Playbook"
+M365 Defender SOC Playbooks - "**Ransomware Recovery “SOC – Automated Restore Playbook**"
 
 
 A power automate playbook that integrate as connected application to Microsoft Defender for Endpoint and OneDrive for business to allow SOC to recover from ransomware files/data disruption via an automated process. Noting that the playbook trigger can be replaced with a recurrence schedule instead of MDE alert base.
