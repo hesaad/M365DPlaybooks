@@ -1,10 +1,13 @@
-M365 Defender SOC Playbooks - "YARA to KQL Converter “SOC – YARA2KQL Playbook"
+# M365 Defender Custom Playbooks
+M365 Defender SOC Playbooks - "**YARA to KQL Converter “SOC – YARA2KQL Playbook**"
+
 
 A power automate playbook that integrate as connected application to Microsoft Defender for Endpoint and OpenAI to allow SOC to convert YARA rules can be uploaded / hosted in a centralized repo like OneDrive for business and using OpenAI to convert the YARA rules files content to MDE custom detecton MDE rules. Noting that the playbook trigger can be replaced with a manual trigger.
 
-Pre-reqs:
 
+Pre-reqs:
 - Microsoft Defender for Endpoint.
 - Power Automate / Azure Logic Apps.
 - OpenAI API Key
+
 Please note this is just a sample - PoC. Below are the main configuration & setup steps:
